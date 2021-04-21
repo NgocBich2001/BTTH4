@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS/BTTH4_3.css"> 
+        <style>
+            * {
+                padding: 0;
+                margin: 0 auto;
+                max-width: 1900px;
+            }
+    
+            body {
+                font-family: sans-serif;
+            }
+            #menu ul {
+            background-color:blue;
+            font-weight: bold;
+            border-radius: 5px;       
+            }
+    
+            #menu a {
+                color: white;
+                text-decoration: none;
+            }
+            #menu>ul>li {
+                display: inline-block;
+                font-size: 16px;
+                line-height: 60px;
+                width: 160px;
+                position: relative;
+                text-align: center;
+            }
+    
+            .submenu li {
+                font-size: 14px;
+                line-height: 30px;
+                width: 300px;
+                position: relative;
+                list-style: none;
+                text-align: left;
+                padding-left: 5px;
+            }
+            #menu ul li:hover {
+                background-color: red;
+            }
+    
+            #menu ul li:hover .submenu {
+                display: block;
+            }
+    
+            .submenu {
+                display: none;
+                position: absolute;
+            }
+    
+            .submenu li:hover .submenu1 {
+                display: block;
+            }
+            .submenu1 {
+                display: none;
+                position: absolute;
+                top: 0px;
+                right: -300px;
+            }
+            #menu {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div style="height: 1000px; width: 100%;">
+            <div class="divanh">
+                <img src="PictureLearn/BannerCity.jpg" style="height:100%; width: 100%;">
+             </div>
+             <div class="divcenter">
+                <div style="height: 150px; width: 97%;margin: 6px 20px 0px 20px;">
+                    <img src="PictureLearn/SharThanhCong.jpg" style="height: 100%; width: 100%;">
+                </div>
+
+                <div id="menu" style="width:97%; margin: 10px 20px 0px 20px;">
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a>
+                            <ul class="submenu">
+                                <li><a href="#">Mục 11</a>
+                                <li><a href="#">Mục 12</a>
+                                <li><a href="#">Mục 13</a>
+                            </ul>
+                        </li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Sản phẩm</a>
+                            <ul class="submenu">
+                                <li><a href="#">Mục 31</a>
+                                <li><a href="#">Mục 32</a>
+                                <li><a href="#">Mục 33
+                                        <ul class="submenu1">
+                                            <li><a href="#">Mục 331</a>
+                                            <li><a href="#">Mục 332</a>
+                                            <li><a href="#">Mục 333</a>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li><a href="#">Mục 34</a>
+                                <li><a href="#">Mục 35</a>
+                            </ul>
+                        </li>
+                        <li><a href="#">Giải pháp</a></li>
+                        <li><a href="#">Khách hàng</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            
+                <div class="section1">
+                    <img src="PictureLearn/BannerWeb.jpg" class="banner">
+                </div>
+
+                <div class="section2">
+                    <div class="div1">
+                        <div class="div1_1">
+                            <a class="div1_1_1">Sản phẩm</a>
+                        </div>
+             
+                        <div class="div1_1_2">
+                            <div>
+                                <a href="#"><img src="PictureLearn/TracNghiem.jpg" class="anh"></a>
+                            </div>
+                            <div>
+                                <h3>Phần mềm máy chấm thi trắc nghiệm TestPro Engine</h3>
+                                <p style="color: rgb(196, 183, 183);">Đăng ngày: 01/06/2012 07:42 AM</p>
+                                <p style="margin-left: 15px; margin-top: 20px;">Với mục tiêu luôn đi đầu về giải pháp thi trắc nghiệm, Phòng phát triển 
+                                    và gia công phần mềm thuộc Trung tâm Hưng yên Aptech: CNTT&TT- Trường Đại học Sư phạm Kỹ thuật Hưng Yên tiếp tục nghiên cứu và 
+                                    đã cho ra một sản phẩm mới- Máy chấm thi trắc nghiệm TestPro Engine</p>
+                                
+                            </div>
+                            <ul style="color: black; margin:20px">
+                                <li><a href="#">Tiêu đề sản phẩm 1</a></li>
+                                <li><a href="#">Tiêu đề sản phẩm 2</a></li>
+                                <li><a href="#">Tiêu đề sản phẩm 3</a></li>
+                                <li><a href="#">Tiêu đề sản phẩm 4</a></li>
+                                <li><a href="#">Tiêu đề sản phẩm 5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="div1">
+                        <div class="div1_1">
+                            <a class="div1_1_1">Giải pháp</a>
+                        </div>
+            
+                        <div class="div1_1_2">
+                            <div>
+                                <a href="#"><img src="PictureLearn/WorkNhom.jpg" class="anh"></a>
+                            </div>
+                            <div>
+                                <h3>Giải pháp hội thảo trực tuyến</h3>
+                                <p style="color: rgb(196, 183, 183);">Đăng ngày: 01/06/2012 07:42 AM</p>
+                                <p style="margin-left: 15px; margin-top: 20px;">Sau nhiều năm nghiên cứu, phát triển ứng dụng Họp
+                                     trực tuyến (Còn gọi là hội nghị truyền hình), chúng tôi đã chính thức tung ra thị trường sản phẩm Navi Video Conference Véion 3.0 từ cuối năm 2011.</p> 
+                                <ul style="color: black; margin: 20px">
+                                    <li><a href="#">Tiêu đề giải pháp 1</a></li>
+                                    <li><a href="#">Tiêu đề giải pháp 2</a></li>
+                                    <li><a href="#">Tiêu đề giải pháp 3</a></li>
+                                    <li><a href="#">Tiêu đề giải pháp 4</a></li>
+                                    <li><a href="#">Tiêu đề giải pháp 5</a></li>
+                                </ul>                   
+                            </div>
+                       </div>
+                        
+                    </div>
+            
+                    <div class="div1">
+                        <div class="div1_1">
+                            <a class="div1_1_1">Tin tức</a>
+                        </div>
+            
+                        <div class="div1_1_2">
+                            <div>
+                                <a href="#"><img src="PictureLearn/Win8.jpg" class="anh"></a>
+                            </div>
+                            <div>
+                                <h3>Microsoft công bố Windows 8 Release</h3>
+                                <p style="color: rgb(196, 183, 183);">Đăng ngày: 01/06/2012 07:42 AM</p>
+                                <p style="margin-left: 15px; margin-top: 20px;">Rạng sáng nay (1/6) theo giừo Việt Nam, Microsoft đã chính thức công bố 
+                                    phiên bản Windows 8 Release Preview với nhiều tính năng và ứng dụng mới được thêm vào.</p> 
+                                <ul style="color: black; margin:20px;">
+                                    <li><a href="#">Tiêu đề tin liên quan 1</a></li>
+                                    <li><a href="#">Tiêu đề tin liên quan 2</a></li>
+                                    <li><a href="#">Tiêu đề tin liên quan 3</a></li>
+                                    <li><a href="#">Tiêu đề tin liên quan 4</a></li>
+                                    <li><a href="#">Tiêu đề tin liên quan 5</a></li>
+                                </ul>                   
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                 
+                <div class="section3">
+                    <p>Bản quyền thuộc về Trung tâm phát triển phần mềm SEVN</p>
+                    <p>Địa chỉ: Dân Tiến- Khoái Châu- Hưng Yên</p>
+                    <p>Email: contact@congnghephanmem.vn - Điện thoại: 0912.188.636</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

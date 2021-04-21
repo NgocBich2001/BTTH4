@@ -1,0 +1,59 @@
+.section1
+{
+    height: 200px; 
+    border-radius: 5px; 
+    margin-top: 10px;
+}
+
+.section2
+{
+    margin: 15px; 
+    float: left; 
+    width: 99%; 
+    height: 550px; 
+    background-color: white;
+}
+
+.div1
+{
+    height: 400px; 
+    width: 26%; 
+    float: left; 
+    border: 1px solid rgb(223, 216, 216); 
+    border-radius: 5px; 
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 110px;
+}
+
+.div1_1
+{
+    background-color: rgb(243, 234, 234); 
+    font-weight: bold; 
+    font-size: 20px; 
+    color: blue; 
+    width: 100%; 
+    height: 50px;
+}
+
+.div1_1_1
+{
+    line-height: 40px; 
+    margin-left: 15px;
+}
+
+.div1_1_2
+{
+    height: 300px; 
+    width: 95%; 
+    background-color: white; 
+    margin-top: 10px;
+}
+
+.div1 li{margin-left:20px}
+.div1 a{ color: blue; text-decoration: none;}
+.div1 ul li:hover{color: red;}
+.div1 h3{color: blue; font-weight: bold; margin-left: 15px;}
+
+.anh{height: 110px; width: 150px; float: left; margin: 10px;}
+.banner{width:90% ;height: 200px; border-radius: 5px; margin: 6px 20px 0px 20px;}
